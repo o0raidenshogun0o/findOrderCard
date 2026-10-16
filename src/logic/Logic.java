@@ -6,21 +6,31 @@ import java.util.*;
 
 public class Logic {
     String[] currentCards;
-    ArrayDeque<String> holdCards = new ArrayDeque<>();
+    ArrayDeque<String> holdCards;
+    Map<String, int[]> mapNotification;
 
-    Map<String, int[]> mapNotification = new HashMap<>();
-
-    private final List<String> START_SKILL;
+    private  List<String> START_SKILL;
     private Boolean CHECK_IS_VALID = true;
     private Boolean IS_HAVE_IBUKI_SWIMSUIT = false;
+    private final int SPLIT;
 
-    public Logic(List<String> startSkill, List<String> tlSkill) {
-        START_SKILL = List.copyOf(startSkill);
-
-        {
-            int SPLIT = START_SKILL.size() / 2;
-            currentCards = new String[SPLIT];
+    public Logic(List<String> startSkill , List<String> tlSkill) {
+        SPLIT = startSkill.size() / 2;
+        for (String name : startSkill) {
+            if (name.equals(Constants.IBUKI_SWIMSUIT)) {
+                IS_HAVE_IBUKI_SWIMSUIT = true;
+                break;
+            }
         }
+        if (IS_HAVE_IBUKI_SWIMSUIT && !Constants.checkIbukiSwimsuit(startSkill, SPLIT)) {
+            CHECK_IS_VALID = false;
+            return;
+        }
+
+        START_SKILL = List.copyOf(startSkill);
+        currentCards = new String[SPLIT];
+        holdCards = new ArrayDeque<>();
+        mapNotification = new HashMap<>();
 
         for (int i = 0; i <= currentCards.length - 1; i++) {
             currentCards[i] = START_SKILL.get(i);
@@ -30,19 +40,13 @@ public class Logic {
         }
 
         for (String name : START_SKILL) {
-            if (name.equals(Constants.IBUKI_SWIMSUIT)) {
-                IS_HAVE_IBUKI_SWIMSUIT = true;
-            }
             mapNotification.put(name, new int[Constants.MAX]);
             Arrays.fill(mapNotification.get(name), -1);
             mapNotification.get(name)[0] = 0; //mapCount
 
         }
 
-        if (IS_HAVE_IBUKI_SWIMSUIT && !Constants.checkIbukiSwimsuit(START_SKILL, currentCards.length)) {
-            CHECK_IS_VALID = false;
-            return;
-        }
+
         update(tlSkill);
     }
 

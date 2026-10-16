@@ -1,0 +1,11 @@
+4
+Hoshino (Swimsuit) = 2
+3 1
+4 1
+Iroha (Swimsuit) = 1
+14 1
+Satsuki (Swimsuit) = 2
+1 1
+13 1
+Fuyu = 1
+9 1
