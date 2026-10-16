@@ -1,0 +1,7 @@
+3
+Reijo = 1
+1 1
+Saori (Swimsuit) = 1
+1 2
+Aris (Armed) = 1
+5 1

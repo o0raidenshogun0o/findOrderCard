@@ -8,19 +8,15 @@ import java.util.List;
 import java.util.Locale;
 
 public class Constants {
-    private static final String TEMPLATE_1 = "%s được dùng lần thứ %d tại card %d";
+    public static final String WHITESPACE_REGEX = "\\s+";
     public static final String TEMPLATE_2 = "Có tất cả: %d cách";
 
-    public static final String IBUKI = optimizeString("Ibuki");
+    public static final String IBUKI_SWIMSUIT = optimizeString("Ibuki (Swimsuit)");
     public static final int MAX = 50;
 
     public static String optimizeString(String name) {
         return name.toLowerCase(Locale.ROOT).trim();
     }
-
-//    public static String getTemplate(String useCard, int order, int index) {
-//        return Constants.TEMPLATE.formatted(useCard, order, index);
-//    }
 
     public static List<String> readFile(String fileName) {
         List<String> result = new ArrayList<>();
@@ -38,9 +34,9 @@ public class Constants {
         }
     }
 
-    public static boolean checkIbuki(List<String> startSkill, int length) {
+    public static boolean checkIbukiSwimsuit(List<String> startSkill, int length) {
         for (int i = 0; i <= length - 1; i++) {
-            if (startSkill.get(i).equals(IBUKI)) {
+            if (startSkill.get(i).equals(IBUKI_SWIMSUIT)) {
                 return true;
             }
         }

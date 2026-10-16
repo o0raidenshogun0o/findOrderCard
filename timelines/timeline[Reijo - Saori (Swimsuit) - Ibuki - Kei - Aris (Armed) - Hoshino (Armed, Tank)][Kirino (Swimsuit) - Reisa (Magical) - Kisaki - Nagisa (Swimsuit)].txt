@@ -1,0 +1,42 @@
+Reijo -> Saori (Swimsuit)
+Hoshino (Armed, Tank) -> Kei -> Ibuki
+Reisa (Magical)
+Kisaki
+Reijo
+Hoshino (Armed, Tank)
+Kei
+Saori (Swimsuit)
+Ibuki
+Kisaki
+Reisa (Magical)
+Hoshino (Armed, Tank)
+Kei
+Reijo
+Ibuki
+Kisaki
+Saori (Swimsuit)
+Hoshino (Armed, Tank)
+Kei
+Reisa (Magical)
+Reijo
+Kisaki
+Ibuki
+Saori (Swimsuit)
+Kei
+Nagisa (Swimsuit)
+Reijo
+Aris (Armed) -> Reisa (Magical) -> Kisaki
+Ibuki -> Nagisa (Swimsuit) -> Reijo
+Kei
+Aris (Armed) -> Kisaki -> Saori (Swimsuit)
+Hoshino (Armed, Tank) -> Reisa (Magical)
+Kei -> Kirino (Swimsuit)
+Reijo
+Ibuki -> Kisaki -> Saori (Swimsuit) -> Kei -> Hoshino (Armed, Tank)
+Reisa (Magical) -> Reijo -> Kisaki -> Ibuki -> Saori (Swimsuit) -> Kei -> Nagisa (Swimsuit)
+Reijo
+Aris (Armed) -> Reisa (Magical) -> Kisaki
+Kei -> Nagisa (Swimsuit) -> Reijo
+Ibuki -> Aris (Armed) -> Kisaki -> Saori (Swimsuit) -> Nagisa (Swimsuit)
+Kei -> Reijo
+Hoshino (Armed, Tank) -> Kisaki -> Aris (Armed)
