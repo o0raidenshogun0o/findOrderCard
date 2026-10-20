@@ -1,0 +1,20 @@
+Hoshino (Swimsuit) -> Erika -> Fuuka (New Year)
+Haruka (Dress) -> Seia (Swimsuit) -> Erika -> Fuuka (New Year) -> Haruka (Dress)
+Hoshino (Swimsuit)
+Erika -> Fuuka (New Year)
+Haruka (Dress) -> Seia (Swimsuit)
+Erika -> Fuuka (New Year) -> Haruka (Dress) -> Izuna -> Erika
+Fuuka (New Year) -> Haruka (Dress) -> Hoshino (Swimsuit) -> Erika -> Fuuka (New Year)
+Seia (Swimsuit)
+Haruka (Dress) -> Erika -> Fuuka (New Year)
+Hoshino (Swimsuit)
+Haruka (Dress) -> Erika -> Fuuka (New Year)
+Seia (Swimsuit)
+Haruka (Dress)
+Erika -> Fuuka (New Year)
+Izuna
+Haruka (Dress) -> Erika
+Fuuka (New Year)
+Hoshino (Swimsuit) -> Haruka (Dress)
+Erika -> Fuuka (New Year) -> Seia (Swimsuit)
+Haruka (Dress) -> Izuna -> Erika -> Fuuka (New Year) -> Hoshino (Swimsuit) -> Seia (Swimsuit) -> Erika -> Fuuka (New Year) -> Haruka (Dress)

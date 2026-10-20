@@ -2,7 +2,7 @@ import constants.Constants;
 import logic.Solution;
 
 void main() throws IOException {
-    String path = "[Seia (Swimsuit) - Yuuka (Pajama) - Iroha (Swimsuit) - Mari (Idol)][Ibuki (Swimsuit) - Rio]_Phase2";
+    String path = Constants.NAME_FILE;
     Scanner sc = new Scanner(new File(getFullPath("conditions", path)));
     Map<String, int[]> conditions = new HashMap<>();
     int n = sc.nextInt();

@@ -1,0 +1,14 @@
+6
+Saori (Dress) = 2
+1 2
+4 1
+Kaede = 1
+1 1
+Kisaki = 1
+1 1
+Aoba = 1
+1 3
+Reisa (Magical) = 1
+1 4
+Cherino = 1
+1 5

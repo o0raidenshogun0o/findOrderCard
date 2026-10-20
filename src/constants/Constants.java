@@ -10,7 +10,7 @@ import java.util.Locale;
 public class Constants {
     public static final String WHITESPACE_REGEX = "\\s+";
     public static final String TEMPLATE_2 = "Có tất cả: %d cách";
-
+    public static final String NAME_FILE = "[Aoba - Cherino - Hare (Camp) - Nozomi - Saori (Dress) - Hikari][Kisaki - Nagisa (Swimsuit) - Kaede - Reisa (Magical)]";
     public static final String IBUKI_SWIMSUIT = optimizeString("Ibuki (Swimsuit)");
     public static final int MAX = 50;
 
